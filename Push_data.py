@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-MONGO_DB_URL = os.getenv("MONGO_DB_URL")
+MONGO_DB_URL = os.getenv("MONGO_DB_URL") 
 # Fetch MongoDB connection URL from environment variables
 
 print(MONGO_DB_URL)  # (For debugging only — avoid printing in real projects)
